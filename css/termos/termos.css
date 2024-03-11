@@ -1,0 +1,33 @@
+.main-termos {
+  padding: 20px;
+}
+
+.main-termos dl {
+  counter-increment: counter-dt;
+}
+
+.main-termos dt::before {
+  opacity: 0.5;
+  content: counter(counter-dt) ". ";
+}
+
+.main-termos dt {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.main-termos dl dd {
+  color: var(--cor10);
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  max-width: 75ch;
+}
+
+.main-termos dl dd {
+  margin-bottom: 1.5rem;
+}
+
+@media (width <= 480px) {
+  .main-termos.container {
+    padding-top: 10px;
+  }
+}

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+
+    <title>Home | Bikcraft</title>
+    <meta name="description" content="Bicicletas" />
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="./css/style.css" as="style" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+  </head>
+  <body>
+    <header class="font-1-m">
+      <div class="header container">
+        <a href="index.html"
+          ><img src="../img/bikcraft.svg" alt="Logomarca da bikcraft" id="logo"
+        /></a>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="./bicicletas.html">Bicicletas</a></li>
+            <li><a href="./seguros.html">Seguros</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="intro">
+      <div class="intro container">
+        <p class="font-2-l-b cor-5">RESPOSTAS EM ATÉ 24H</p>
+        <h1 class="cor-0 font-1-xxl">
+          nosso contato<span class="cor-p1">.</span>
+        </h1>
+      </div>
+    </div>
+
+    <main class="contato">
+      <div class="contato container">
+        <div class="contato-contato">
+          <h2 class="font-1-m cor-0">Loja Online</h2>
+          <ul id="lista-local" class="font-2-s cor-5">
+            <li id="rua-before">Rua Lorem Ipsum, 85</li>
+            <li>Copacabana, Rio de Janeiro - RJ</li>
+            <li>Brazil</li>
+          </ul>
+          <ul id="lista-mail" class="font-2-s cor-5">
+            <li id="mail-before">
+              <a href="mailto:ghbranco6@gmail.com">contato@bikcraft.com</a>
+            </li>
+            <li>
+              <a href="mailto:ghbranco6@gmail.com"
+                >assistencia.tecnica@bikcraft.com</a
+              >
+            </li>
+          </ul>
+          <ul id="lista-tel" class="font-2-s cor-5">
+            <li id="tel-before">
+              <a href="tel:+5515999999999">+55 15 9.9999-9999</a>
+            </li>
+            <li>
+              <a href="tel:+5515999999999">+55 85 9.8888-8888</a>
+            </li>
+          </ul>
+          <div class="lista-redes">
+            <a href="#" id="insta"
+              ><img
+                src="./img/redes/instagram-p.svg"
+                alt="Ícone da rede Instagram"
+            /></a>
+            <a href="#" id="facebook"
+              ><img
+                src="./img/redes/facebook-p.svg"
+                alt="Ícone da rede Facebook"
+            /></a>
+            <a href="#" id="youtube"
+              ><img src="./img/redes/youtube-p.svg" alt="Ícone da rede Youtube"
+            /></a>
+          </div>
+        </div>
+        <form class="contato-form">
+          <div class="form-nome">
+            <label for="name">Nome</label>
+            <input
+              placeholder="Nome completo"
+              type="text"
+              name="name"
+              id="name"
+              required
+            />
+          </div>
+          <div class="form-telefone">
+            <label for="tel">Telefone</label>
+            <input
+              placeholder="(99) 9.9999-9999"
+              type="text"
+              name="tel"
+              id="tel"
+              inputmode="tel"
+              required
+            />
+          </div>
+          <div class="form-email">
+            <label for="mail">Email</label>
+            <input
+              placeholder="annacarol@gmail.com"
+              type="mail"
+              name="mail"
+              id="mail"
+              inputmode="mail"
+              required
+            />
+          </div>
+          <div class="form-mensagem">
+            <label for="mensagem">Mensagem</label>
+            <textarea
+              rows="5"
+              placeholder="Responderemos o mais rápido possível  =)"
+              type="text"
+              name="mensagem"
+              id="mensagem"
+              required
+            ></textarea>
+          </div>
+          <button class="botao col-2">Enviar Mensagem</button>
+        </form>
+      </div>
+    </main>
+
+    <article class="lojas">
+      <div class="lojas container">
+        <h3 class="font-1-xxl">lojas locais<span class="cor-p1">.</span></h3>
+        <div class="mapas">
+          <div class="mapa-card">
+            <a
+              href="https://www.google.com.br/maps/place/Botafogo,+Rio+de+Janeiro+-+RJ/@-22.951087,-43.1959548,15z/data=!3m1!4b1!4m6!3m5!1s0x997fe5efee9a25:0x3c77ca60168b5ea!8m2!3d-22.9510978!4d-43.1807461!16zL20vMDJqY2Z2?entry=ttu"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="./img/lojas/rj.jpg"
+                alt="Um printscreen de um mapa mostrando a loja Bikcradt no Rio de Janeiro"
+            /></a>
+
+            <div class="card-dados">
+              <h4 class="font-1-xl">Rio de Janeiro</h4>
+              <ul class="font-2-s cor-8">
+                <div>
+                  <li>Rua Lorem Ipsum, 85</li>
+                  <li>Rio de Janeiro, RJ</li>
+                </div>
+                <div>
+                  <li><a href="mailto:rj@bikcraft.com">rj@bikcraft.com</a></li>
+                  <li><a href="tel:+5515999999999">+55 15 9.9999-9999</a></li>
+                </div>
+              </ul>
+              <p class="lojas-tempo font-1-s">
+                <img src="./img/icones/horario.svg" />08-18h de seg à dom
+              </p>
+            </div>
+          </div>
+          <div class="mapa-card">
+            <a
+              href="https://www.google.com.br/maps/place/Rep%C3%BAblica,+S%C3%A3o+Paulo+-+SP/@-23.5436968,-46.6473832,16z/data=!3m1!4b1!4m6!3m5!1s0x94ce5851c0395f3b:0xf36ea5aa7f8ff302!8m2!3d-23.5451075!4d-46.642778!16s%2Fg%2F121pw8xl?entry=ttu"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="./img/lojas/sp.jpg"
+                alt="Um printscreen de um mapa mostrando a loja Bikcraft em São Paulo"
+            /></a>
+
+            <div class="card-dados">
+              <h4 class="font-1-xl">São Paulo</h4>
+              <ul class="font-2-s cor-8">
+                <div>
+                  <li>Rua Lorem Ipsum, 85</li>
+                  <li>São Paulo, SP</li>
+                </div>
+                <div>
+                  <li>
+                    <a href="mailto:ghbranco6@gmail.com">sp@bikcraft.com</a>
+                  </li>
+                  <li><a href="tel:+5515999999999">+55 15 9.9999-9999</a></li>
+                </div>
+              </ul>
+              <p class="lojas-tempo font-1-s">
+                <img src="./img/icones/horario.svg" />08-18h de seg à dom
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <footer class="footer">
+      <div class="footer-container container">
+        <img
+          src="../img/bikcraft.svg"
+          width="136"
+          height="32"
+          alt="Logomarca da Bikcraft"
+          id="logo-bik"
+        />
+        <div class="footer-contato">
+          <h3 class="font-2-l-b cor-0">CONTATO</h3>
+          <ul class="font-2-m cor-5">
+            <li><a href="tel:+5515981771985">+55 21 9999-9999 </a></li>
+            <li>
+              <a href="mailto:ghbranco6@gmail.com">contato@bikcraft.com</a>
+            </li>
+            <li>Rua Lorem Ipsum, 85 - Copacabana</li>
+            <li>Rio de Janeiro, RJ</li>
+            <div class="lista-redes">
+              <div class="lista-redes">
+                <a href="#"
+                  ><img
+                    src="../img/redes/instagram.svg"
+                    alt="Ícone da rede Instagram"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="../img/redes/facebook.svg"
+                    alt="Ícone da rede Facebook"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="../img/redes/youtube.svg"
+                    alt="Ícone da rede Youtube"
+                /></a>
+              </div>
+            </div>
+          </ul>
+        </div>
+
+        <div class="info">
+          <h3 class="font-2-l-b cor-0">INFORMAÇÕES</h3>
+          <ul class="font-2-m cor-5">
+            <li><a href="./bicicletas.html">Bicicletas</a></li>
+            <li><a href="./seguros.html">Seguros</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+            <li><a href="./termos.html">Termos e condições</a></li>
+          </ul>
+        </div>
+
+        <div class="direitos footer-copy font-2-m cor-6">
+          Bikcraft. &copy; Todos direitos reservados.
+        </div>
+      </div>
+    </footer>
+
+    <script src="./scripts/formmask.js"></script>
+    <script src="./scripts/nav.js"></script>
+  </body>
+</html>

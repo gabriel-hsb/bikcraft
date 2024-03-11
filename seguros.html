@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+
+    <title>Home | Bikcraft</title>
+    <meta name="description" content="Bicicletas" />
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="./css/style.css" as="style" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="font-1-m">
+      <div class="header container">
+        <a href="index.html"
+          ><img src="../img/bikcraft.svg" alt="Logomarca da bikcraft" id="logo"
+        /></a>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="./bicicletas.html">Bicicletas</a></li>
+            <li><a href="./seguros.html">Seguros</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="seguros">
+      <div class="container">
+        <p class="font-2-l-b cor-5">ESCOLHA SEU PLANO</p>
+        <h2 class="cor-0 font-1-xxl">
+          nossos seguros<span class="cor-p1">.</span>
+        </h2>
+        <div class="container-seguros">
+          <div class="card-seguro">
+            <h4 class="font-1-xl cor-6">PRATA</h4>
+            <span class="font-1-xl cor-0">
+              R$ 199 <br />
+              <span class="font-1-xs cor-6">mensal</span>
+            </span>
+            <ul class="font-2-m cor-0">
+              <li>Duas trocas por ano</li>
+              <li>Assistência Técnica</li>
+              <li>Suporte 08h às 18h</li>
+              <li>Cobertura estadual</li>
+            </ul>
+            <a class="btn-inscreva" id="btn-prata" href="./orcamento.html"
+              >INSCREVA-SE</a
+            >
+          </div>
+
+          <div class="card-seguro">
+            <h4 class="font-1-xl cor-p1">OURO</h4>
+            <span class="font-1-xl cor-0">
+              R$ 299 <br />
+              <span class="font-1-xs cor-6">mensal</span>
+            </span>
+            <ul class="font-2-m cor-0">
+              <li>Cinco trocas por ano</li>
+              <li>Assistência Especial</li>
+              <li>Suporte 24h</li>
+              <li>Cobertura nacional</li>
+              <li>Desconto em parceiros</li>
+              <li>Acesso ao Clube Bikcraft</li>
+            </ul>
+            <a class="btn-inscreva" id="btn-gold" href="./orcamento.html"
+              >INSCREVA-SE</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="vantagens">
+      <div class="vantagens container">
+        <h2 class="cor-0 font-1-xxl">vantagens<span class="cor-p1">.</span></h2>
+        <div class="vantagens-itens">
+          <ul>
+            <li>
+              <img src="./img/icones/eletrica.svg" />
+              <h3 class="font-1-l cor-0">Reparo Elétrico</h3>
+              <p class="font-2-s cor-5">
+                Garantimos o reparo completo do seu motor em caso de falhas.
+                Sabemos que falhas são raras, mas estamos aqui para caso ocorra.
+              </p>
+            </li>
+            <li>
+              <img src="./img/icones/carbono.svg" />
+              <h3 class="font-1-l cor-0">Carbono</h3>
+              <p class="font-2-s cor-5">
+                Nossos quadros são feitos para durar para sempre. Mas caso algo
+                ocorra, ficamos felizes em reparar.
+              </p>
+            </li>
+            <li>
+              <img src="./img/icones/sustentavel.svg" />
+              <h3 class="font-1-l cor-0">Sustentável</h3>
+              <p class="font-2-s cor-5">
+                Trabalhamos com a filosofia de desperdício zero. Qualquer parte
+                defeituosa é reciclada e reutilizada em outro projeto.
+              </p>
+            </li>
+            <li>
+              <img src="./img/icones/rastreador.svg" />
+              <h3 class="font-1-l cor-0">Rastreador</h3>
+              <p class="font-2-s cor-5">
+                Utilizamos o GPS da sua Bikcraft em conjunto com especialistas
+                em segurança para efetuarmos a recuperação.
+              </p>
+            </li>
+            <li>
+              <img src="./img/icones/seguro.svg" />
+              <h3 class="font-1-l cor-0">Segurança</h3>
+              <p class="font-2-s cor-5">
+                Com o seguro Bikcraft você pode ficar tranquilo em saber que o
+                seu dinheiro não será perdido em casos de roubo.
+              </p>
+            </li>
+            <li>
+              <img src="./img/icones/velocidade.svg" />
+              <h3 class="font-1-l cor-0">Rapidez</h3>
+              <p class="font-2-s cor-5">
+                A sua Bikcraft ficará pronta para uso no mesmo dia, caso você
+                traga ela para ser reparada em uma das filiais.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="perguntas">
+      <div class="perguntas container">
+        <h2 class="font-1-xxl">
+          perguntas frequentes<span class="cor-p1">.</span>
+        </h2>
+        <dl>
+          <div>
+            <dt>
+              <button
+                class="font-1-m-b"
+                aria-expanded="true"
+                aria-controls="pergunta1"
+              >
+                Formas de pagamento
+              </button>
+            </dt>
+            <dd id="pergunta1" class="font-2-s cor-9 active">
+              Aceitamos diversas formas de pagamento, incluindo cartões de
+              crédito, débito e transferências bancárias. Para obter informações
+              mais detalhadas sobre as opções disponíveis, consulte nossa página
+              de formas de pagamento.
+            </dd>
+          </div>
+          <div>
+            <dt>
+              <button
+                class="font-1-m-b"
+                aria-expanded="false"
+                aria-controls="pergunta2"
+              >
+                Contato
+              </button>
+            </dt>
+            <dd id="pergunta2" class="font-2-s cor-9">
+              Para entrar em contato conosco, utilize o formulário em nossa
+              página de contato ou envie um e-mail para
+              <strong
+                ><a href="mailto:ghbranco6@gmail.com"
+                  >contato@bikcraft.com</a
+                ></strong
+              >. Estamos comprometidos em responder às suas dúvidas e
+              solicitações o mais rápido possível.
+            </dd>
+          </div>
+          <div>
+            <dt>
+              <button
+                class="font-1-m-b"
+                aria-expanded="false"
+                aria-controls="pergunta3"
+              >
+                Descontos
+              </button>
+            </dt>
+            <dd id="pergunta3" class="font-2-s cor-9">
+              Fique atento às nossas promoções e ofertas especiais!
+              Periodicamente, oferecemos descontos em produtos selecionados.
+              Acompanhe nossas redes sociais e newsletter para ficar por dentro
+              das oportunidades de economizar em suas compras.
+            </dd>
+          </div>
+          <div>
+            <dt>
+              <button
+                class="font-1-m-b"
+                aria-expanded="false"
+                aria-controls="pergunta4"
+              >
+                Garantia
+              </button>
+            </dt>
+            <dd id="pergunta4" class="font-2-s cor-9">
+              Todos os nossos produtos são cobertos por uma garantia de
+              qualidade. Caso você encontre qualquer defeito de fabricação,
+              entre em contato conosco para discutir opções de reparo,
+              substituição ou reembolso, de acordo com nossa política de
+              garantia.
+            </dd>
+          </div>
+          <div>
+            <dt>
+              <button
+                class="font-1-m-b"
+                aria-expanded="false"
+                aria-controls="pergunta5"
+              >
+                Parcelamento no Boleto
+              </button>
+            </dt>
+            <dd id="pergunta5" class="font-2-s cor-9">
+              No momento, não oferecemos opção de parcelamento no boleto.
+              Aceitamos parcelamento apenas em cartões de crédito. Consulte
+              nossa página de formas de pagamento para mais detalhes.
+            </dd>
+          </div>
+          <div>
+            <dt>
+              <button
+                class="font-1-m-b"
+                aria-expanded="false"
+                aria-controls="pergunta6"
+              >
+                Trocas
+              </button>
+            </dt>
+            <dd id="pergunta6" class="font-2-s cor-9">
+              Você pode solicitar até duas trocas de produtos ao longo do ano,
+              sujeitas aos termos e condições de nossa política de trocas.
+              Certifique-se de ler as diretrizes de troca em nossa página
+              específica para obter informações detalhadas.
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container container">
+        <img
+          src="../img/bikcraft.svg"
+          width="136"
+          height="32"
+          alt="Logomarca da Bikcraft"
+          id="logo-bik"
+        />
+        <div class="footer-contato">
+          <h3 class="font-2-l-b cor-0">CONTATO</h3>
+          <ul class="font-2-m cor-5">
+            <li><a href="tel:+5515981771985">+55 21 9999-9999 </a></li>
+            <li>
+              <a href="mailto:ghbranco6@gmail.com">contato@bikcraft.com</a>
+            </li>
+            <li>Rua Lorem Ipsum, 85 - Copacabana</li>
+            <li>Rio de Janeiro, RJ</li>
+            <div class="lista-redes">
+              <div class="lista-redes">
+                <a href="#"
+                  ><img
+                    src="../img/redes/instagram.svg"
+                    alt="Ícone da rede Instagram"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="../img/redes/facebook.svg"
+                    alt="Ícone da rede Facebook"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="../img/redes/youtube.svg"
+                    alt="Ícone da rede Youtube"
+                /></a>
+              </div>
+            </div>
+          </ul>
+        </div>
+
+        <div class="info">
+          <h3 class="font-2-l-b cor-0">INFORMAÇÕES</h3>
+          <ul class="font-2-m cor-5">
+            <li><a href="./bicicletas.html">Bicicletas</a></li>
+            <li><a href="./seguros.html">Seguros</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+            <li><a href="./termos.html">Termos e condições</a></li>
+          </ul>
+        </div>
+
+        <div class="direitos footer-copy font-2-m cor-6">
+          Bikcraft. &copy; Todos direitos reservados.
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts/nav.js"></script>
+    <script src="./scripts/dropdown.js"></script>
+  </body>
+</html>

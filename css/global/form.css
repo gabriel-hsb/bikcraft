@@ -1,0 +1,80 @@
+form {
+  border-radius: 0 4px 4px 0;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: var(--cor-0);
+}
+
+form label,
+.form-label {
+  font: 1rem/1.5 "Poppins", sans-serif;
+}
+
+form input:read-only {
+  background-color: var(--cor-2);
+}
+
+form .form-nome,
+form .form-cep,
+form .form-rua,
+form .form-cidade {
+  grid-column: 1 / 2;
+}
+
+form .form-telefone,
+form .form-numero,
+form .form-bairro,
+form .form-estado {
+  grid-column: 2 / -1;
+}
+
+form .form-email,
+form .form-mensagem,
+form .form-cpf {
+  grid-column: span 2;
+}
+
+form label {
+  display: block;
+  font: 400 1rem / 1.5 "Poppins", sans-serif;
+  margin-bottom: 4px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  background: var(--cor-1);
+  border: 2px solid var(--cor-2);
+  border-radius: 4px;
+  font: 400 1rem / 1.5 "Roboto", sans-serif;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form input[required]:focus,
+form textarea:focus {
+  outline: none;
+  border-color: var(--cor-p1);
+  background: var(--cor-0);
+  box-shadow: 0 0 0 2px #fea;
+}
+
+form input:focus {
+  outline: none;
+  border-color: none;
+}
+
+form .botao.col-2 {
+  grid-column: span 2;
+}
+
+@media (width <= 600px) {
+  form .form-rua,
+  form .form-bairro {
+    grid-column: span 2;
+  }
+}

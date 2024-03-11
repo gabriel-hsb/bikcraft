@@ -1,0 +1,119 @@
+div.seguros {
+  background-color: var(--cor-11);
+}
+
+div.seguros > .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+div.seguros h2 {
+  margin-bottom: 40px;
+}
+div.container-seguros {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  align-items: center;
+}
+
+div.seguros .card-seguro {
+  background-color: var(--cor-12);
+  padding: 32px 32px 32px 60px;
+  border-radius: 4px;
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.card-seguro h4 {
+  margin-bottom: 40px;
+}
+
+div.seguros .card-seguro span > span {
+  text-align: right;
+}
+
+.card-seguro ul {
+  margin-bottom: 32px;
+  grid-column: 1 / 3;
+}
+
+.card-seguro li + li {
+  margin-top: 20px;
+}
+
+.card-seguro li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.card-seguro li::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  background-image: url(../../img/icones/lista.svg);
+  position: absolute;
+  left: -21px;
+}
+
+.card-seguro .btn-inscreva {
+  background: var(--cor-10);
+  color: var(--cor-2);
+  display: inline-block;
+  padding: 16px 32px;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  display: inline-block;
+  grid-column: -3 / -2;
+  width: fit-content;
+  text-align: center;
+  height: fit-content;
+  border-radius: 4px;
+}
+
+.card-seguro #btn-prata:hover {
+  background-color: var(--cor-9);
+}
+
+.card-seguro #btn-gold {
+  background: linear-gradient(#ffbf00, #f2a50c);
+  color: var(--cor-p5);
+}
+
+.card-seguro #btn-gold:hover {
+  background: linear-gradient(#ffb60d, #e59317);
+}
+
+@media (width <= 800px) {
+  div.container-seguros {
+    grid-template-columns: 1fr;
+  }
+
+  .card-seguro .btn-inscreva {
+    padding: 16px 16px;
+  }
+}
+
+@media (width <= 600px) {
+  div.seguros .card-seguro {
+    padding: 32px 20px 32px 50px;
+  }
+
+  .card-seguro .btn-inscreva {
+    font-size: 1rem;
+  }
+
+  div.seguros > .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (width <= 460px) {
+  div.seguros > .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

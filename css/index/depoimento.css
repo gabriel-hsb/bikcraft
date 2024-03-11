@@ -1,0 +1,64 @@
+div.depoimento-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: var(--cor-p1);
+}
+
+div.depoimento-container .depoimento-texto {
+  padding: 40px 40px 40px 60px;
+  margin: auto;
+}
+
+div.depoimento-container .depoimento-texto p {
+  max-width: 32ch;
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-weight: 900;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+div.depoimento-container .depoimento-texto p::before,
+div.depoimento-container .depoimento-texto p::after {
+  position: absolute;
+  font-size: 5rem;
+  color: var(--cor-p2);
+}
+
+div.depoimento-container .depoimento-texto p::before {
+  content: " “ ";
+  left: -50px;
+  top: -20px;
+}
+
+div.depoimento-container .depoimento-texto p::after {
+  content: " ” ";
+}
+
+div.depoimento-container img {
+  border-radius: 0;
+}
+
+@media (width <= 800px) {
+  div.depoimento-container {
+    grid-template-columns: 1fr;
+  }
+
+  div.depoimento-container {
+    text-align: center;
+  }
+  div.depoimento img {
+    max-height: 200px;
+  }
+}
+
+@media (width <= 600px) {
+  div.depoimento-container .depoimento-texto p::before,
+  div.depoimento-container .depoimento-texto p::after {
+    display: none;
+  }
+
+  div.depoimento-container .depoimento-texto {
+    padding: 40px 40px 40px 40px;
+  }
+}

@@ -1,0 +1,41 @@
+/* gerais */
+@import "../css/utilitarios/cores.css";
+@import "../css/utilitarios/tipografia.css";
+@import "../css/global/global.css";
+@import "../css/utilitarios/componentes.css";
+
+/*aparecem em todos html */
+@import "../css/global/header-nav.css";
+@import "../css/global/footer.css";
+@import "../css/global/form.css";
+
+/* index html */
+@import "../css/index/hero.css";
+@import "../css/index/carrossel.css";
+@import "../css/index/tecnologia.css";
+@import "../css/index/parceiros.css";
+@import "../css/index/depoimento.css";
+@import "../css/index/seguros.css";
+
+/* bicicletas html*/
+@import "../css/bicicletas/intro.css";
+@import "../css/bicicletas/main.css";
+
+/* termos html */
+@import "../css/termos/termos.css";
+
+/* seguros html */
+@import "../css/seguros/seguros.css";
+@import "../css/seguros/perguntas.css";
+
+/* contato html */
+@import "../css/contato/contato.css";
+@import "../css/contato/lojas.css";
+
+/* bikes/(bike).html */
+@import "../css/bikes/main.css";
+@import "../css/bikes/submain.css";
+@import "../css/bikes/art-seguro.css";
+
+/* orcamento html */
+@import "../css/orcamento/main.css"

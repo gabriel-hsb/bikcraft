@@ -1,0 +1,15 @@
+.intro {
+  background-color: var(--cor-11);
+}
+
+.intro.container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media (width <= 800px) {
+  .intro.container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
