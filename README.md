@@ -15,7 +15,7 @@
 | ![image](https://github.com/gabriel-hsb/bikcraft/assets/110293122/e0f46639-9324-48e4-96db-0516955adc63) |![photo1710203376](https://github.com/gabriel-hsb/bikcraft/assets/110293122/8fce7e83-5c06-4665-953c-d43eef92e627)  |
 
 
-<h2 id="tecnologias">Tecnologias Utilizadas</h2>
+<h2 id="tecnologias">💻 Tecnologias Utilizadas</h2>
 
  - HTML5
  - CSS3
