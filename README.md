@@ -2,7 +2,7 @@
   <img src="https://github.com/gabriel-hsb/bikcraft/assets/110293122/040a9971-c15f-47c5-b6f1-81d61051b9d5"/>
 </p>
 
-**Bikcraft** 🚴 é um projeto de site fictício para venda de seguros e bicicletas de alto nível, *criado com base no curso da Origamid de HTML e CSS para Iniciantes*
+**Bikcraft** 🚴 é um projeto de site fictício para venda de seguros e bicicletas de alto nível, criado com base no curso da Origamid de *HTML e CSS para Iniciantes*
 #### Visite o site no Vercel! [ ghsb-bikcraft.vercel.app](https://ghsb-bikcraft.vercel.app/)
 
 |Index - Desktop | Index - Mobile |
