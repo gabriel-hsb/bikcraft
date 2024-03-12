@@ -9,9 +9,17 @@
 |--|--|
 | ![Index desktop](https://github.com/gabriel-hsb/bikcraft/assets/110293122/b7a62005-ff98-49ef-a04f-11b0d25528ff) |![Index mobile](https://github.com/gabriel-hsb/bikcraft/assets/110293122/8f4f1570-3e53-4f5a-8348-1b474c4e77da)  
 
+<br>
+
 |Bicicletas - Desktop | Bicicletas - Mobile |
 |--|--|
 |![image](https://github.com/gabriel-hsb/bikcraft/assets/110293122/0b01b66f-b4ce-4cf7-aa56-095db62f9ff0) |![photo1710202900](https://github.com/gabriel-hsb/bikcraft/assets/110293122/c5ae5ae0-f186-4ad1-aa5b-5e79bbea54ae)  |
+
+<br>  
+
+|Orçamento - Desktop  |Orçamento - Mobile  |
+|--|--|
+| ![image](https://github.com/gabriel-hsb/bikcraft/assets/110293122/e0f46639-9324-48e4-96db-0516955adc63) |![photo1710203376](https://github.com/gabriel-hsb/bikcraft/assets/110293122/8fce7e83-5c06-4665-953c-d43eef92e627)  |
 
 
 ## Construído com
