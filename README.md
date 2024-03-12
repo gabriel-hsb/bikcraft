@@ -4,7 +4,7 @@
 
 <p> <strong>Bikcraft</strong> 🚴 é um projeto de site fictício para venda de seguros e bicicletas de alto nível, criado com base no curso da Origamid de <i>HTML e CSS para Iniciantes</i></p>
 
-Este é meu maior projeto até o momento, e pude aprimorar muito minhas capacidades com as [Tecnologias Utilizadas](./README.md/#tecnologias-utilizadas)
+<p>Este é meu maior projeto até o momento, e pude aprimorar muito minhas capacidades com as <a href="#tecnologias">Tecnologias Utilizadas</a></p>
 
 #### Conheça o site! [ ghsb-bikcraft.vercel.app](https://ghsb-bikcraft.vercel.app/)
 
@@ -15,7 +15,7 @@ Este é meu maior projeto até o momento, e pude aprimorar muito minhas capacida
 | ![image](https://github.com/gabriel-hsb/bikcraft/assets/110293122/e0f46639-9324-48e4-96db-0516955adc63) |![photo1710203376](https://github.com/gabriel-hsb/bikcraft/assets/110293122/8fce7e83-5c06-4665-953c-d43eef92e627)  |
 
 
-#tecnologias-utilizadas
+<h2 id="tecnologias">Tecnologias Utilizadas</h2>
 
  - HTML5
  - CSS3
