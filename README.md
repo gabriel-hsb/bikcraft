@@ -2,12 +2,13 @@
   <img src="https://github.com/gabriel-hsb/bikcraft/assets/110293122/040a9971-c15f-47c5-b6f1-81d61051b9d5"/>
 </p>
 
-#### Bikcraft é um site fictício para venda de seguros e bicicletas de alto nível, *criado com base no curso da Origamid de HTML e CSS para Iniciantes*
+**Bikcraft** 🚴 é um projeto de site fictício para venda de seguros e bicicletas de alto nível, *criado com base no curso da Origamid de HTML e CSS para Iniciantes*
 #### Visite o site no Vercel! [ ghsb-bikcraft.vercel.app](https://ghsb-bikcraft.vercel.app/)
 
 |Index - Desktop | Index - Mobile |
 |--|--|
-| ![Index desktop](https://github.com/gabriel-hsb/bikcraft/assets/110293122/b7a62005-ff98-49ef-a04f-11b0d25528ff) |![Index mobile](https://github.com/gabriel-hsb/bikcraft/assets/110293122/8f4f1570-3e53-4f5a-8348-1b474c4e77da)  
+| [![Index desktop](https://github.com/gabriel-hsb/bikcraft/assets/110293122/b7a62005-ff98-49ef-a04f-11b0d25528ff)](https://ghsb-bikcraft.vercel.app/) | [![Index mobile](https://github.com/gabriel-hsb/bikcraft/assets/110293122/8f4f1570-3e53-4f5a-8348-1b474c4e77da)](https://ghsb-bikcraft.vercel.app/) |
+
 
 <br>
 
@@ -22,7 +23,7 @@
 | ![image](https://github.com/gabriel-hsb/bikcraft/assets/110293122/e0f46639-9324-48e4-96db-0516955adc63) |![photo1710203376](https://github.com/gabriel-hsb/bikcraft/assets/110293122/8fce7e83-5c06-4665-953c-d43eef92e627)  |
 
 
-## Construído com
+## 💻 Tecnologias utilizadas 
 
  - HTML5
  - CSS3
@@ -31,7 +32,7 @@
 	 - [jQuery-Mask-Plugin](https://github.com/igorescobar/jQuery-Mask-Plugin) para máscaras de input
 	 - [ViaCEP](https://viacep.com.br/) para formulário utilizando CEP 
 
-## Como Contribuir
+## 🤝 Como Contribuir
 
  1. Faça um fork do repositório 
  2.  Crie uma branch para a sua feature `git checkout -b feature/NomeDaSuaFeature`
@@ -40,7 +41,7 @@
 4. Faça push para a branch `git push origin feature/NomeDaSuaFeature`
 5. Abra um Pull Request
 
-## Contato 
+## 📬 Contato 
 O projeto chamou sua atenção? Entre em contato comigo para marcarmos uma conversa! 😀
  - **Nome**: Gabriel Henrique
  - **Email**: ghbranco6@gmail.com 
