@@ -29,6 +29,18 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      ;(function () {
+        emailjs.init({
+          publicKey: "ircl1bJWeSN3E85De",
+        })
+      })()
+    </script>
   </head>
   <body>
     <header class="font-1-m">
@@ -98,20 +110,23 @@
             /></a>
           </div>
         </div>
-        <form class="contato-form">
+        <form class="contato-form" id="mail-form">
           <div class="form-nome">
             <label for="name">Nome</label>
             <input
+              class="form-control"
               placeholder="Nome completo"
-              type="text"
+              type="name"
               name="name"
               id="name"
               required
             />
           </div>
+
           <div class="form-telefone">
             <label for="tel">Telefone</label>
             <input
+              class="form-control"
               placeholder="(99) 9.9999-9999"
               type="text"
               name="tel"
@@ -120,28 +135,31 @@
               required
             />
           </div>
+
           <div class="form-email">
-            <label for="mail">Email</label>
+            <label for="email">Email</label>
             <input
+              class="form-control"
               placeholder="annacarol@gmail.com"
-              type="mail"
-              name="mail"
-              id="mail"
-              inputmode="mail"
+              type="email"
+              name="email"
+              id="email"
               required
             />
           </div>
+
           <div class="form-mensagem">
-            <label for="mensagem">Mensagem</label>
+            <label for="subject">Mensagem</label>
             <textarea
               rows="5"
               placeholder="Responderemos o mais rápido possível  =)"
               type="text"
-              name="mensagem"
-              id="mensagem"
+              name="subject"
+              id="subject"
               required
             ></textarea>
           </div>
+
           <button class="botao col-2">Enviar Mensagem</button>
         </form>
       </div>
@@ -271,5 +289,6 @@
 
     <script src="./scripts/formmask.js"></script>
     <script src="./scripts/nav.js"></script>
+    <script src="./scripts/emailJs.js"></script>
   </body>
 </html>
